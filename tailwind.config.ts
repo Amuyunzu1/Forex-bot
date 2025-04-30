@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				hunter: {
+					dark: '#121212',
+					darker: '#0A0A0A',
+					background: '#1A1A1A',
+					card: '#222222',
+					accent: '#00FF41',
+					accent2: '#00E5E5',
+					warning: '#FF8C00',
+					danger: '#FF3A5E',
+					text: '#E0E0E0',
+					'text-muted': '#888888'
 				}
 			},
 			borderRadius: {
@@ -84,11 +97,30 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				pulse: {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.5' }
+				},
+				glow: {
+					'0%, 100%': { boxShadow: '0 0 5px rgba(0, 255, 65, 0.5)' },
+					'50%': { boxShadow: '0 0 15px rgba(0, 255, 65, 0.8)' }
+				},
+				fadeIn: {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-slow': 'pulse 2s infinite',
+				'glow': 'glow 1.5s infinite',
+				'fade-in': 'fadeIn 0.3s ease-out'
+			},
+			fontFamily: {
+				mono: ['JetBrains Mono', 'Consolas', 'monospace'],
+				sans: ['Inter', 'sans-serif']
 			}
 		}
 	},
