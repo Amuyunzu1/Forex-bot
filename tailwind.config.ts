@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,16 +64,16 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				hunter: {
-					dark: '#1a3e5f', // Changed from black to dark blue
-					darker: '#102a43', // Changed from black to darker blue
-					background: '#2c5282', // Changed to medium blue
-					card: '#3182ce', // Changed to lighter blue
-					accent: '#4fd1c5', // Changed to teal
-					accent2: '#90cdf4', // Changed to light blue
-					warning: '#F6AD55',
-					danger: '#FC8181',
-					text: '#F7FAFC', // Lighter text for better contrast
-					'text-muted': '#CBD5E0'
+					dark: '#2A3E52', // EssayPro dark blue
+					darker: '#1A2A3A', // EssayPro darker blue
+					background: '#203044', // Medium blue
+					card: '#304B6A', // Lighter blue
+					accent: '#00C9B9', // Teal accent
+					accent2: '#7382A5', // Secondary accent
+					warning: '#FF9C45',
+					danger: '#FF5050',
+					text: '#FFFFFF', // White text
+					'text-muted': '#D1D7E0'
 				}
 			},
 			borderRadius: {
@@ -102,8 +103,8 @@ export default {
 					'50%': { opacity: '0.5' }
 				},
 				glow: {
-					'0%, 100%': { boxShadow: '0 0 5px rgba(0, 255, 65, 0.5)' },
-					'50%': { boxShadow: '0 0 15px rgba(0, 255, 65, 0.8)' }
+					'0%, 100%': { boxShadow: '0 0 5px rgba(0, 201, 185, 0.5)' },
+					'50%': { boxShadow: '0 0 15px rgba(0, 201, 185, 0.8)' }
 				},
 				fadeIn: {
 					'0%': { opacity: '0', transform: 'translateY(10px)' },

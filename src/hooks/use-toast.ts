@@ -1,20 +1,23 @@
 
 // This file creates and exports the toast functionality
 import * as React from "react";
+
 import {
-  ToastActionElement,
-  ToastProps
+  type ToastActionElement,
 } from "@/components/ui/toast";
 
 const TOAST_LIMIT = 5;
 const TOAST_REMOVE_DELAY = 1000000;
 
-type ToasterToastProps = ToastProps & {
+interface ToasterToastProps {
   id: string;
   title?: React.ReactNode;
   description?: React.ReactNode;
   action?: ToastActionElement;
-};
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+  variant?: "default" | "destructive";
+}
 
 export type ToasterToast = ToasterToastProps;
 
@@ -139,7 +142,14 @@ function dispatch(action: Action) {
   });
 }
 
-type ToastProps = Omit<ToasterToast, "id">;
+interface ToastProps {
+  variant?: "default" | "destructive";
+  title?: React.ReactNode;
+  description?: React.ReactNode;
+  action?: ToastActionElement;
+  open?: boolean;
+  onOpenChange?: (open: boolean) => void;
+}
 
 function toast({ ...props }: ToastProps) {
   const id = genId();

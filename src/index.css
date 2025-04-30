@@ -7,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 210 75% 30%;
-    --foreground: 210 20% 95%;
+    --background: 215 30% 20%;
+    --foreground: 0 0% 100%;
 
-    --card: 210 60% 40%;
-    --card-foreground: 210 20% 95%;
+    --card: 214 26% 30%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 210 60% 40%;
-    --popover-foreground: 210 20% 95%;
+    --popover: 214 26% 30%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 180 70% 50%;
-    --primary-foreground: 210 20% 10%;
+    --primary: 174 100% 39%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 50% 45%;
-    --secondary-foreground: 210 20% 95%;
+    --secondary: 220 18% 55%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 50% 45%;
-    --muted-foreground: 210 20% 80%;
+    --muted: 220 18% 55%;
+    --muted-foreground: 214 15% 85%;
 
-    --accent: 180 70% 50%;
-    --accent-foreground: 210 20% 10%;
+    --accent: 174 100% 39%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 80% 70%;
-    --destructive-foreground: 210 20% 10%;
+    --destructive: 0 100% 65%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 210 50% 50%;
-    --input: 210 50% 50%;
-    --ring: 180 70% 50%;
+    --border: 214 25% 40%;
+    --input: 214 25% 40%;
+    --ring: 174 100% 39%;
 
     --radius: 0.375rem;
   }
@@ -59,11 +59,11 @@
   }
 
   .hunter-button-primary {
-    @apply bg-hunter-accent hover:bg-hunter-accent/90 text-black border-0;
+    @apply bg-hunter-accent hover:bg-hunter-accent/90 text-white border-0;
   }
 
   .hunter-button-secondary {
-    @apply bg-hunter-accent2 hover:bg-hunter-accent2/90 text-hunter-dark border-0;
+    @apply bg-hunter-accent2 hover:bg-hunter-accent2/90 text-white border-0;
   }
 
   .hunter-button-danger {
@@ -87,10 +87,10 @@
   }
 
   .hunter-glow {
-    @apply shadow-[0_0_10px_rgba(79,209,197,0.5)];
+    @apply shadow-[0_0_10px_rgba(0,201,185,0.5)];
   }
 
   .hunter-glow-blue {
-    @apply shadow-[0_0_10px_rgba(144,205,244,0.5)];
+    @apply shadow-[0_0_10px_rgba(115,130,165,0.5)];
   }
 }
