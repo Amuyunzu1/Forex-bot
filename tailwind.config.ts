@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -64,16 +63,16 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				hunter: {
-					dark: '#121212',
-					darker: '#0A0A0A',
-					background: '#1A1A1A',
-					card: '#222222',
-					accent: '#00FF41',
-					accent2: '#00E5E5',
-					warning: '#FF8C00',
-					danger: '#FF3A5E',
-					text: '#E0E0E0',
-					'text-muted': '#888888'
+					dark: '#1a3e5f', // Changed from black to dark blue
+					darker: '#102a43', // Changed from black to darker blue
+					background: '#2c5282', // Changed to medium blue
+					card: '#3182ce', // Changed to lighter blue
+					accent: '#4fd1c5', // Changed to teal
+					accent2: '#90cdf4', // Changed to light blue
+					warning: '#F6AD55',
+					danger: '#FC8181',
+					text: '#F7FAFC', // Lighter text for better contrast
+					'text-muted': '#CBD5E0'
 				}
 			},
 			borderRadius: {

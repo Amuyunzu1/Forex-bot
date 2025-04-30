@@ -4,7 +4,7 @@ import { Bot, Settings } from 'lucide-react';
 
 const Header = () => {
   return (
-    <header className="bg-hunter-darker border-b border-hunter-background py-4 px-6">
+    <header className="bg-hunter-darker border-b border-hunter-accent/20 py-4 px-6">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <Bot className="w-7 h-7 text-hunter-accent" />
