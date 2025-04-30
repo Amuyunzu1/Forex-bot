@@ -93,4 +93,23 @@
   .hunter-glow-blue {
     @apply shadow-[0_0_10px_rgba(115,130,165,0.5)];
   }
+  
+  /* EssayPro inspired styles for landing and about pages */
+  .essaypro-button {
+    @apply bg-essaypro-accent hover:bg-essaypro-accent-dark text-white px-4 py-2 rounded-md font-semibold 
+    transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-essaypro-accent/40;
+  }
+  
+  .essaypro-card {
+    @apply bg-white rounded-lg shadow-md border border-essaypro-gray-300/30 overflow-hidden;
+  }
+  
+  .essaypro-input {
+    @apply bg-white border border-essaypro-gray-300 rounded-md px-4 py-2 focus:outline-none 
+    focus:ring-2 focus:ring-essaypro-blue-600/40 focus:border-essaypro-blue-600;
+  }
+  
+  .essaypro-section {
+    @apply py-16 px-4;
+  }
 }

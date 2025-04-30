@@ -74,6 +74,30 @@ export default {
 					danger: '#FF5050',
 					text: '#FFFFFF', // White text
 					'text-muted': '#D1D7E0'
+				},
+				essaypro: {
+					'blue': {
+						50: '#F0F4F9',
+						100: '#E1E9F3',
+						200: '#C3D4E7',
+						300: '#A5BEDB',
+						400: '#87A9CF',
+						500: '#6993C3',
+						600: '#4B7DB7',
+						700: '#2D68AB',
+						800: '#245394',
+						900: '#1B407E',
+					},
+					'accent': '#FF6B35',
+					'accent-dark': '#E84F18',
+					'gray': {
+						100: '#F5F7FA',
+						200: '#E9ECF2',
+						300: '#D2D7E2',
+						400: '#BCC2D1',
+						500: '#A5AEC1',
+						600: '#8F99B0',
+					}
 				}
 			},
 			borderRadius: {
