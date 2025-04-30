@@ -1,6 +1,6 @@
 
 // This file creates and exports the toast functionality
-
+import * as React from "react";
 import {
   Toast,
   ToastActionElement,
