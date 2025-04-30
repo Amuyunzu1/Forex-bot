@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Bot, Users, TrendingUp, Clock } from 'lucide-react';
+import { Bot, Users, TrendingUp, Clock, Shield } from 'lucide-react';
 import Navigation from '../components/Navigation';
 
 const About = () => {
